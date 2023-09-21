@@ -1,6 +1,32 @@
 h2 {
     color :aqua;
 }
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+body{
+    color:black;
+}
+
 body {
-    background-color:rgb(66, 104, 109);
+    background-color:rgb(118, 197, 207);
 }
