@@ -32,4 +32,10 @@ body {
 }
 #picAbot {
     float: left;
-  }
+}
+#picSpder1 {
+    float: right;
+}
+#picSpder2 {
+    float: left;
+}
