@@ -1,5 +1,5 @@
 h2 {
-    color :aqua;
+    color :black;
 }
 
 a:visited {
@@ -30,3 +30,6 @@ body{
 body {
     background-color:rgb(118, 197, 207);
 }
+#picAbot {
+    float: left;
+  }
