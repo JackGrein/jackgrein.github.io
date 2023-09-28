@@ -30,7 +30,9 @@
             <th><a style="text-decoration:none" href="pageresumejack.html" target=_self title="Resume Section">
                 Resume&nbsp;&nbsp;&nbsp;</a></th>
             <th><a style="text-decoration:none" href="pagecontactjack.html" target=_self title="Contact Details">
-                Contact</a></th>
+                Contact&nbsp;&nbsp;&nbsp;</a></th>
+            <th><a style="text-decoration:none" href="pictures.html" target=_self title="Extra Pictures">
+                Pictures</a></th>
         </tr>
     </table>
     <br>
@@ -52,7 +54,7 @@
     <br>
     <br>
 
-    <img hspace="20" id="picSpder2" src="/imagefiles/PXL_20230429_091056603.jpg" height="400" alt="This is a picture of both boards on the spider!" title="Spiderbot Board">
+    <img hspace="20" id="picSpder2" src="/imagefiles/SpiderBot_CoolLights.jpg" height="400" alt="This is a picture of both boards on the spider!" title="Spiderbot Board">
     <br>
     <br>
     <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some problems I had encountered with this project was first definitely where to begin. Once I had that figured out and came up with a timeline and objectives to complete, It was all about either soldering together a board or finding one that will take and handle all the connections to and from the servo motors. I started out trying to solder something together, but then another student pulled out a servo board that was exactly what I needed. The next problem I had was trying to integrate that old board to follow and carry out commands from the arduino software. That process took a couple weeks, but I was able to find bits and pieces of some old documentation online from their github that I could use for giving specific instructions to each servo. After that, The most challenging part was getting the communication between the esp32 circuit board and the old circuit board to talk to each other. I decided to go with serial communication, through each boards RX/TX ports. That would have been even more difficult if I hadn't been able to find the old circuit board's schematics online, after downloading Eagle, a board schematic viewing software. My second to last problems I came to was then the communication between the esp32 and my phone, but after trial and error with the some bluetooth communication, I was able to give the esp32 commands, which gave the other circuit board different commands based off of what input I gave it. The last problem I had was getting the robotic spider, once built, not to stand up, but walk on it's own. This was due to the heavy parts that I placed into the spider, along with the weak servo motors, as when it was walking, part of the walking sequence was that one leg would carry it's entire side's weight, which most of the time it had a hard time doing, because the servo wasn't rated to carry that much load, and thus tended to give out. I had struggled with that prolem for a while, between trying to cut the weight down, to securing the joints to each other better, making it more rigid.</span>
