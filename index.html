@@ -1,57 +1,54 @@
 <!DOCTYPE html>
 
 <html>
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GYZ6LGBK6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-<head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4GYZ6LGBK6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+            gtag('config', 'G-4GYZ6LGBK6');
+        </script>
 
-  gtag('config', 'G-4GYZ6LGBK6');
-</script>
-    <link rel="stylesheet" href="app.css"/>
-    <title>Jacks Website!</title>
-    <style>
-        
-    </style>
-</head>
+        <!--route to css logic-->
+        <link rel="stylesheet" href="app.css"/>
+        <title>Jacks Website!</title>
+    </head>
 
-<body>
-    <h2><a style="text-decoration:none" href="index.html" target=_self title="Home">
-        &nbsp;&nbsp;&nbsp;Jack Greiner</a></h2>
-    <h4>&nbsp;&nbsp;&nbsp;&nbsp;Mechatronics Engineering Technology</h4>
-    <hr>
-    <table>
-        <tr>
-            <th><a style="text-decoration:none" href="pageaboutjack.html" target=_self title="About Section">
-                &nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;</a></th>
-            <th><a style="text-decoration:none" href="pageprojectsjack.html" target=_self title="Projects Section">
-                Projects&nbsp;&nbsp;&nbsp;</a></th>
-            <th><a style="text-decoration:none" href="pageresumejack.html" target=_self title="Resume Section">
-                Resume&nbsp;&nbsp;&nbsp;</a></th>
-            <th><a style="text-decoration:none" href="pagecontactjack.html" target=_self title="Contact Details">
-                Contact&nbsp;&nbsp;&nbsp;</a></th>
-            <th><a style="text-decoration:none" href="pictures.html" target=_self title="Extra Pictures">
-                Pictures</a></th>
-        </tr>
-    </table>
-    <div style="margin:0px 100px 0px 100px;">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="/imagefiles/20200604_180713-PANO.jpg" height="450" alt="This is a picture of the water" title="A panorama view of the sky and water!">
-    
-    <p>Welcome to my website! I figured out how to code in HTML and used Github Pages to put it on the internet! I will be adding more photos later. Feel free to click (or tap) around!</p>
-    <button onclick="alertButton()">Click me</button>
-    </div>
-</body>
+    <body>
+        <!-- Navigation Bar -->
+        <div class="navbar">
+            <div class="title">
+                <a style="text-decoration:none" href="index.html" target=_self title="Home">Jack Greiner</a>
+                <h4>&nbsp;&nbsp;&nbsp;&nbsp;Mechatronics Engineering Technology</h4></div>
+            <div class="nav-links">
+                <a style="text-decoration:none" href="pageaboutjack.html" target=_self title="About Section">
+                    About</a>
+                <a style="text-decoration:none" href="pageprojectsjack.html" target=_self title="Projects Section">
+                    Projects</a>
+                <a style="text-decoration:none" href="pageresumejack.html" target=_self title="Resume Section">
+                    Resume</a>
+                <a style="text-decoration:none" href="pagecontactjack.html" target=_self title="Contact Details">
+                    Contact</a>
+                <a style="text-decoration:none" href="pictures.html" target=_self title="Extra Pictures">
+                    Pictures</a>
+            </div>
+        </div>
+        <!--Content Main-->
+        <div style="margin:0px 100px 0px 100px;">
+            <img src="/imagefiles/20200604_180713-PANO.jpg" height="450" alt="This is a picture of the water" title="A panorama view of the sky and water!" style="text-align: center;">
+            <p>Welcome to my website! Feel free to click (or tap) around!</p>
+            <div class="center-container">
+                <h1 class="center-title">Jack Greiner</h1><br>
+            </div>
+            <h2 style="text-align: center;">Mechatronics Engineering Technology</h2>
+            
+        </div>
+        <div class="full-page-image"></div>
+    </body>
 
-<script src="app.js"></script>
-
+    <!--route to javascript logic-->
+    <script src="app.js"></script>
 </html>

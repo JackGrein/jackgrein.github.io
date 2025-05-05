@@ -1,8 +1,12 @@
+/* This is the css for Jack's (my) website! */
+
+/* Heading code */
 h2 {
     color :black;
 }
 
-a:visited {
+/* link (a) code */
+a:visited { 
     color: black;
     background-color: transparent;
     text-decoration: none;
@@ -23,13 +27,14 @@ a:active {
     text-decoration: underline;
 }
 
-body{
+/* some body code */
+body {
     color:black;
+    background-color:rgb(189, 189, 189);
+    
 }
 
-body {
-    background-color:rgb(118, 197, 207);
-}
+/* code for pictures and stuff */
 #picAbot {
     float: left;
 }
@@ -38,4 +43,156 @@ body {
 }
 #picSpder2 {
     float: left;
+}
+
+/* Navibar code (name, about, contact, etc. other stuff) */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e2f;
+    padding: 16px 86px;
+    padding-top: 24px;
+    flex-wrap: wrap;
+}
+
+.navbar .title {
+    color: white;
+    font-size: 14px;
+}
+
+.navbar .title a {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar .title a:hover {
+    color: #ec3131;
+}
+
+.navbar .title a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 24px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+    color: #ec3131;
+}
+
+.navbar .nav-links a:active {
+    color: rgb(251, 146, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.nav-links a.active {
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+
+/* Responsive layout for Navibar */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar .nav-links {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .navbar .nav-links a {
+        padding: 8px 0;
+    }
+}
+
+/* code for page content */
+.content {
+    padding: 40px;
+    text-align: center;
+}
+
+/* code for the split rows and columns */
+.row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 32px;
+}
+
+.column-left,
+.column-right {
+    flex: 1;
+}
+
+.column-left {
+    color: #333;
+    line-height: 1.6;
+}
+
+.column-right {
+    color: #333;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      gap: 16px;
+    }
+}
+
+/* code for index page centered text */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.center-title {
+    font-size: 72px;
+    font-weight: bold;
+    color:  #1e1e2f;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .center-title {
+      font-size: 48px;
+    }
+}
+
+  /* code for image in background, like in the index */
+.full-page-image {
+    background-image: url('/imagefiles/20200604_180713-PANO.jpg');
+    background-size: cover;      /* cover entire area */
+    background-position: center; /* center the image */
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }

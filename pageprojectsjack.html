@@ -1,111 +1,159 @@
 <!DOCTYPE html>
 
 <html>
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GYZ6LGBK6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-<head>
-    <link rel="stylesheet" href="app.css"/>
-    <title>Jack Greiner - Projects</title>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4GYZ6LGBK6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+            gtag('config', 'G-4GYZ6LGBK6');
+        </script>
+        <!--route to css logic-->
+        <link rel="stylesheet" href="app.css"/>
+        <title>Projects - Jack G</title>
+    </head>
 
-  gtag('config', 'G-4GYZ6LGBK6');
-</script>
-</head>
+    <body>
+        <!-- Navigation Bar -->
+        <div class="navbar">
+            <div class="title">
+                <a style="text-decoration:none" href="index.html" target=_self title="Home">Jack Greiner</a>
+                <h4>&nbsp;&nbsp;&nbsp;&nbsp;Mechatronics Engineering Technology</h4></div>
+            <div class="nav-links">
+                <a style="text-decoration:none" href="pageaboutjack.html" target=_self title="About Section">
+                    About</a>
+                <a style="text-decoration:none" href="pageprojectsjack.html" target=_self title="Projects Section">
+                    Projects</a>
+                <a style="text-decoration:none" href="pageresumejack.html" target=_self title="Resume Section">
+                    Resume</a>
+                <a style="text-decoration:none" href="pagecontactjack.html" target=_self title="Contact Details">
+                    Contact</a>
+                <a style="text-decoration:none" href="pictures.html" target=_self title="Extra Pictures">
+                    Pictures</a>
+            </div>
+        </div>
+        <br>
+        <!--Content Main-->
+        <div style="margin:0px 100px 0px 100px;">
+            <h2>Projects</h2>
+            <h3>Ongoing Projects</h3>
+            <h4>Projects that I am currently working on.</h4>
+            <div class="section">
+                <h3>Spider Bot V2</h3>
+                <div class="row">
+                    <div class="column-left">
+                        I am working on making a better version of the spiderbot I have made previously, addressing the problems I have had with the original design. I will be implementing better walking algorithms, higher payload capacity, better communication to the board, and a more refined finish, among many other additions.
+                    </div>
+                    <div class="column-right">
+                        <img hspace="20" id="spiderbotv2" src="/imagefiles\PXL_20250505_085225739.jpg" height="300" alt="Spider Bot V2" title="SpiderBot2">
+                    </div>
+                </div>
+                <h3>Combat Robotics</h3>
+                <div class="row">
+                    <div class="column-left">
+                        <img hspace="20" id="larry1" src="/imagefiles/Screenshot 2025-05-05 041241.png" height="300" alt="Battle Bot - Larry" title="Combat Robotics!">
+                    </div>
+                    <div class="column-right">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am working with a colleague in the robotics club to redesign and 
+                        build a 3lb robot to fight other robots in an enclosed arena, very similar to Battle Bots, the hit TV show. We are going through a 
+                        redesign, changing where a hatch should go for the battery, and improving upon the weapon drive shaft to make it more stable and more 
+                        durable than before. I am currently working on better securing the weapon to the dead axle that it spins around to build speed 
+                        and force. This requires adapting the 3D printed toothed pulleys I had designed to be able to be held further down the shaft to a clamp 
+                        that should secure parts to the shaft much better, and heavily reduce any amount of slippage and moving around the shaft that the weapon 
+                        may do when it gets hit or hits into other robots. I am also finalizing the top and bottom aluminum frame of the robot, while 
+                        my colleague works on the TPU body of the robot, the part that will be sandwiched between the top and bottom plates.
+                    </div>
+                </div>
+                <h2>Past Projects</h2>
+                <h3>Spider Bot</h3>
+                <div class="row">
+                    <div class="column-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I created, took, and presented to a board to recieve funding to this project 
+                        because I wanted to try another project that merged both my mechanical and programming knowledge, and to expand upon 
+                        it to create this intruging robotic spider. I wanted the challenge of being able to build something that was not only able to 
+                        walk around, but also able to be moldable in its function through programmable limbs and joints, and eventually be able to sense 
+                        things in the world around it. This is an ongoing project, and though I did complete the objective I sought out to do, I wanted to 
+                        do more with the project. Most of the ideas I had orientated around adding more actions to the limbs, like making it dance, jump, or 
+                        have a higher or lower stance. However, I did have ideas to add a whole muilti-axled robot arm on top of the spider bot. 
+                        However, I would need to go in front of the board again and present it as a whole new project. I am planning to do that in the future, 
+                        when they have their board open for personal projects, which will end up being later in the semester.
+                    </div>
+                    <div class="column-right">
+                        <img hspace="20" id="picSpder1" src="/imagefiles/PXL_20230501_015726509.MP.jpg" height="400" alt="This is a picture the spider bot" title="Spiderbot Constructed">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column-left">
+                        <img hspace="20" id="picSpder2" src="/imagefiles/SpiderBot_CoolLights.jpg" height="400" alt="This is a picture of both boards on the spider!" title="Spiderbot Board">
+                    </div>
+                    <div class="column-right">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some problems I had encountered with this project was first definitely where to begin. Once I had 
+                        that figured out and came up with a timeline and objectives to complete, It was all about either soldering together a 
+                        board or finding one that will take and handle all the connections to and from the servo motors. I started out trying to solder something 
+                        together, but then another student pulled out a servo board that was exactly what I needed. The next problem I had was trying to integrate 
+                        that old board to follow and carry out commands from the arduino software. That process took a couple weeks, but I was able to 
+                        find bits and pieces of some old documentation online from their github that I could use for giving specific instructions to each servo. 
+                        After that, The most challenging part was getting the communication between the esp32 circuit board and the old circuit board 
+                        to talk to each other. I decided to go with serial communication, through each boards RX/TX ports. That would 
+                        have been even more difficult if I hadn't been able to find the old circuit board's schematics online, after downloading Eagle, a 
+                        board schematic viewing software. My second to last problems I came to was then the communication between the esp32 and my phone, 
+                        but after trial and error with the some bluetooth communication, I was able to give the esp32 commands, which gave the other circuit board 
+                        different commands based off of what input I gave it. The last problem I had was getting the robotic spider, once built, not to stand up, 
+                        but walk on it's own. This was due to the heavy parts that I placed into the spider, along with the weak servo motors, as when it 
+                        was walking, part of the walking sequence was that one leg would carry it's entire side's weight, which most of the time it 
+                        had a hard time doing, because the servo wasn't rated to carry that much load, and thus tended to give out. I had struggled with that 
+                        problem for a while, between trying to cut the weight down, to securing the joints to each other better, making it more rigid.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column-left">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking back, If I was able to do this project over again, I would have spent more budget getting the more torque capable servos for the 
+                        middle joints, the part of the leg that lifts the most, and carries the most load. I came into this project thinking that I was going to easily 
+                        be able to have the spider bot lift itself off the ground, and it does, but I didn't take into account that most of the walking program I made for 
+                        it would be consistently have only one leg on the ground at a time.
+                    </div>
+                    <div class="column-right">
+                        <img hspace="20" id="picSpder1" src="/imagefiles/PXL_20230308_050739270.jpg" height="300" alt="This is a better view of the robot" title="Full View of Spiderbot">
+                    </div>
+                </div>
+                <h3>Fish Memory Light Project</h3>
+                <div class="row" style="line-height: 1.6; color: #333;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am working with a different colleague from the same robotics club on a project that was requested to be done by a professor and psychologist in the school to essentially test if fish can distinguish between different patterns, like synchronous and asynchronous, and different patterns of both synchronous and asynchronous variations. Me and my colleague’s role is to design lights to flash on and off in different patterns and be able for someone to physically select which patterns they want displayed, and eventually even be able to record their own patterns. Regularly making lights flash on and off in patterns is the easy part. This project is going to be more complex in terms of longevity, as they want this setup to be able to be used in multiple years to come, as they run these experiments on the fish using this setup, and essentially train the fish using this project. This will require a very easy interface to use, and a solid build and design. This can be due to the people running these tests not being engineering or similar majors, and will thus have little to no knowledge of programming to be able to change certain parts of the program if they need to, nor repair pieces of the build if something goes wrong. Thus it is essential that we make something durable and easy to use. This will be a project that will be made to last.
+                </div>
+                <h4>Some of my more noteable projects that had been completed in the past.</h4>
+                <h3>Eagle Scout Project: Building Bridges</h3>
+                <div class="row" style="line-height: 1.6; color: #333;">
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For my Eagle Scout project, I planned out and built a bridge for the Guilford Land Trust. The purpose of 
+                        the project was to provide a dry, stable bridge in order to cross a part of a local hiking trail that intersects with part of a stream that 
+                        will prevent hikers and everyone walking on that trail from getting their feet wet and muddy, and thus improve the quality of that hiking trail. 
+                        I got the idea for the project from working for the land trust for service hours before, and looked at all the work they do for the environment 
+                        and well-being of hikers, and thought that they probably had some work for people like me to do for their individual projects, things that 
+                        they would like to get done, but don’t have the time for.
+                    </p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I built three, ten-foot long bridges, spanning about a thirty-foot gap. I completed this project in 3 main work parties. The first 
+                        was collecting fallen cedar trees that had fallen on a hiking trail. So not only did we help clean up another hiking trail, but we also 
+                        got some of the wood needed for the project. The second work party was to collect the black locust logs donated from the land trust reserves 
+                        and bring them to the start of the trail, along with bringing the cedar logs down to the part of the trail where the bridge was 
+                        going to go. The last work party was by far the biggest, and that was when we transported the black locust logs down the site, and we 
+                        finally started and finished the construction of the bridge.
+                    </p>
+                </div>
+                <h3>Number Block Project - CNC Machining</h3>
+                <div class="row" style="line-height: 1.6; color: #333;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This was the final project for a class at RIT that was brought upon us. I worked with 2 other people to be given what was basically a child’s number block toy, with one number imprinted in the block on one side and a different number on the opposite side that was popped out of the block, that was 3D printed. Our goal was to reverse engineer the block and make the same one out of aluminum. The pieces also had to fit into two other groups’ blocks as well, namely the numbers that were on the block, but in the opposite direction. We started with recording measurements of the block with calipers and a micrometer, then we had to CAD it in SOLIDWORKS and create an engineering drawing in order to verify the measurements and pieces that needed to be included. We then 3D printed the block out of PLA in order to test the block fittings against the other two teams’ blocks to make sure they would fit together for the final product. After that, it was my sole responsibility to make the CNC machining path to eventually mill the aluminum block to the correct measurements we needed. After following the tutorial for CNC machining, and testing the paths created on scrap pieces of test plastic, we finally used aluminum and had the CNC machine our number block. After smoothing out the sharp edges, we had our completed project.
+                </div>
+                <h3>Renewable Energy Project</h3>
+                <div class="row" style="line-height: 1.6; color: #333;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project was first the class First Year Innovation, where the goal of the entire class from the near beginning to the end of the semester was to create something that would utilize sustainable energy resources like wind, water, or sun to power electronics, such as a light source. Our group of 4 decided to come up with having a solar panel and a wind turbine as energy sources. We found some scrap wood in a large dumpster on campus, and built most of the frame out of that wood.
+                </div>
+            </div>
+        </div>
+    </body>
 
-<body>
-    <h2><a style="text-decoration:none" href="index.html" target=_self title="Home">
-        &nbsp;&nbsp;&nbsp;Jack Greiner</a></h2>
-    <h4>&nbsp;&nbsp;&nbsp;&nbsp;Mechatronics Engineering Technology</h4>
-    <hr>
-    <table>
-        <tr>
-            <th><a style="text-decoration:none" href="pageaboutjack.html" target=_self title="About Section">
-                &nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;</a></th>
-            <th><a style="text-decoration:none" href="pageprojectsjack.html" target=_self title="Projects Section">
-                Projects&nbsp;&nbsp;&nbsp;</a></th>
-            <th><a style="text-decoration:none" href="pageresumejack.html" target=_self title="Resume Section">
-                Resume&nbsp;&nbsp;&nbsp;</a></th>
-            <th><a style="text-decoration:none" href="pagecontactjack.html" target=_self title="Contact Details">
-                Contact&nbsp;&nbsp;&nbsp;</a></th>
-            <th><a style="text-decoration:none" href="pictures.html" target=_self title="Extra Pictures">
-                Pictures</a></th>
-        </tr>
-    </table>
-    <br>
-    <div style="margin:0px 100px 0px 100px;">
-    <h2>Projects</h2>
-    <h3>Ongoing Projects</h3>
-    <h4>Projects that I am currently working on.</h4>
-    <h3>Spider Bot</h3>
-    <div style="margin:10px;">
-    <img hspace="20" id="picSpder1" src="/imagefiles/PXL_20230501_015726509.MP.jpg" height="400" alt="This is a picture the spider bot" title="Spiderbot Constructed">
-    <br>
-    <br>
-    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I created, took, and presented to a board to recieve funding to this project because I wanted to try another project that merged both my mechanical and programming knowledge, and to expand upon it to create this intruging robotic spider. I wanted the challenge of being able to build something that was not only able to walk around, but also able to be moldable in its function through programmable limbs and joints, and eventually be able to sense things in the world around it. This is an ongoing project, and though I did complete the objective I sought out to do, I wanted to do more with the project. Most of the ideas I had orientated around adding more actions to the limbs, like making it dance, jump, or have a higher or lower stance. However, I did have ideas to add a whole muilti-axled robot arm on top of the spider bot. However, I would need to go in front of the board again and present it as a whole new project. I am planning to do that in the future, when they have their board open for personal projects, which will end up being later in the semester.</span>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <img hspace="20" id="picSpder2" src="/imagefiles/SpiderBot_CoolLights.jpg" height="400" alt="This is a picture of both boards on the spider!" title="Spiderbot Board">
-    <br>
-    <br>
-    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some problems I had encountered with this project was first definitely where to begin. Once I had that figured out and came up with a timeline and objectives to complete, It was all about either soldering together a board or finding one that will take and handle all the connections to and from the servo motors. I started out trying to solder something together, but then another student pulled out a servo board that was exactly what I needed. The next problem I had was trying to integrate that old board to follow and carry out commands from the arduino software. That process took a couple weeks, but I was able to find bits and pieces of some old documentation online from their github that I could use for giving specific instructions to each servo. After that, The most challenging part was getting the communication between the esp32 circuit board and the old circuit board to talk to each other. I decided to go with serial communication, through each boards RX/TX ports. That would have been even more difficult if I hadn't been able to find the old circuit board's schematics online, after downloading Eagle, a board schematic viewing software. My second to last problems I came to was then the communication between the esp32 and my phone, but after trial and error with the some bluetooth communication, I was able to give the esp32 commands, which gave the other circuit board different commands based off of what input I gave it. The last problem I had was getting the robotic spider, once built, not to stand up, but walk on it's own. This was due to the heavy parts that I placed into the spider, along with the weak servo motors, as when it was walking, part of the walking sequence was that one leg would carry it's entire side's weight, which most of the time it had a hard time doing, because the servo wasn't rated to carry that much load, and thus tended to give out. I had struggled with that prolem for a while, between trying to cut the weight down, to securing the joints to each other better, making it more rigid.</span>
-    <br>
-    <br>
-    <img hspace="20" id="picSpder1" src="/imagefiles/PXL_20230308_050739270.jpg" height="300" alt="This is a better view of the robot" title="Full View of Spiderbot">
-    <br>
-    <br>
-    <br>
-    <br>
-    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking back, If I was able to do this project over again, I would have spent more budget getting the more torque capable servos for the middle joints, the part of the leg that lifts the most, and carries the most load. I came into this project thinking that I was going to easily be able to have the spider bot lift itself off the ground, and it does, but I didn't take into account that most of the walking program I made for it would be consistently have only one leg on the ground at a time.</span>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h3>Combat Robotics</h3>
-    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am working with a colleague in the robotics club to redesign and build a 3lb robot to fight other robots in an enclosed arena, very similar to Battle Bots, the hit TV show. We are going through a redesign, changing where a hatch should go for the battery, and improving upon the weapon drive shaft to make it more stable and more durable than before. I am currently working on better securing the weapon to the dead axle that it spins around to build speed and force. This requires adapting the 3D printed toothed pulleys I had designed to be able to be held further down the shaft to a clamp that should secure parts to the shaft much better, and heavily reduce any amount of slippage and moving around the shaft that the weapon may do when it gets hit or hits into other robots. I am also finalizing the top and bottom aluminum frame of the robot, while my colleague works on the TPU body of the robot, the part that will be sandwiched between the top and bottom plates.</span>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h3>Fish Memory Light Project</h3>
-    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am working with a different colleague from the same robotics club on a project that was requested to be done by a professor and psychologist in the school to essentially test if fish can distinguish between different patterns, like synchronous and asynchronous, and different patterns of both synchronous and asynchronous variations. Me and my colleague’s role is to design lights to flash on and off in different patterns and be able for someone to physically select which patterns they want displayed, and eventually even be able to record their own patterns. Regularly making lights flash on and off in patterns is the easy part. This project is going to be more complex in terms of longevity, as they want this setup to be able to be used in multiple years to come, as they run these experiments on the fish using this setup, and essentially train the fish using this project. This will require a very easy interface to use, and a solid build and design. This can be due to the people running these tests not being engineering or similar majors, and will thus have little to no knowledge of programming to be able to change certain parts of the program if they need to, nor repair pieces of the build if something goes wrong. Thus it is essential that we make something durable and easy to use. This will be a project that will be made to last.</span>
-    <br>
-    <br>
-    <br>
-    <h3>Past Projects</h3>
-    <h4>Some of my more noteable projects that had been completed in the past.</h4>
-    <h3>Eagle Scout Project: Building Bridges</h3>
-    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For my Eagle Scout project, I planned out and built a bridge for the Guilford Land Trust. The purpose of the project was to provide a dry, stable bridge in order to cross a part of a local hiking trail that intersects with part of a stream that will prevent hikers and everyone walking on that trail from getting their feet wet and muddy, and thus improve the quality of that hiking trail. I got the idea for the project from working for the land trust for service hours before, and looked at all the work they do for the environment and well-being of hikers, and thought that they probably had some work for people like me to do for their individual projects, things that they would like to get done, but don’t have the time for. 
-        I built three, ten-foot long bridges, spanning about a thirty-foot gap. I completed this project in 3 main work parties. The first was collecting fallen cedar trees that had fallen on a hiking trail. So not only did we help clean up another hiking trail, but we also got some of the wood needed for the project. The second work party was to collect the black locust logs donated from the land trust reserves and bring them to the start of the trail, along with bringing the cedar logs down to the part of the trail where the bridge was going to go. The last work party was by far the biggest, and that was when we transported the black locust logs down the site, and we finally started and finished the construction of the bridge.
-        </span>
-    <br>
-    <h3>Number Block Project - CNC Machining</h3>
-    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This was the final project for a class at RIT that was brought upon us. I worked with 2 other people to be given what was basically a child’s number block toy, with one number imprinted in the block on one side and a different number on the opposite side that was popped out of the block, that was 3D printed. Our goal was to reverse engineer the block and make the same one out of aluminum. The pieces also had to fit into two other groups’ blocks as well, namely the numbers that were on the block, but in the opposite direction. We started with recording measurements of the block with calipers and a micrometer, then we had to CAD it in SOLIDWORKS and create an engineering drawing in order to verify the measurements and pieces that needed to be included. We then 3D printed the block out of PLA in order to test the block fittings against the other two teams’ blocks to make sure they would fit together for the final product. After that, it was my sole responsibility to make the CNC machining path to eventually mill the aluminum block to the correct measurements we needed. After following the tutorial for CNC machining, and testing the paths created on scrap pieces of test plastic, we finally used aluminum and had the CNC machine our number block. After smoothing out the sharp edges, we had our completed project.
-    </span>
-    <br>
-    <h3>Renewable Energy Project</h3>
-    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project was first the class First Year Innovation, where the goal of the entire class from the near beginning to the end of the semester was to create something that would utilize sustainable energy resources like wind, water, or sun to power electronics, such as a light source. Our group of 4 decided to come up with having a solar panel and a wind turbine as energy sources. We found some scrap wood in a large dumpster on campus, and built most of the frame out of that wood.</span>
-    <br>
-    <br>
-    </div>
-
-    
-</body>
-
-<script src="app.js"></script>
-
+    <!--route to javascript logic-->
+    <script src="app.js"></script>
 </html>

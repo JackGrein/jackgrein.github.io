@@ -1,50 +1,155 @@
 <!DOCTYPE html>
 
 <html>
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GYZ6LGBK6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-<head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4GYZ6LGBK6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+            gtag('config', 'G-4GYZ6LGBK6'); 
+        </script>
+        <!--route to css logic-->
+        <link rel="stylesheet" href="app.css"/>
+        <title>About - Jack G</title>
+    </head>
 
-  gtag('config', 'G-4GYZ6LGBK6');
-</script>
-    <link rel="stylesheet" href="app.css"/>
-    <title>Jack Greiner - About</title>
-</head>
+    <body>
+        <!-- Navigation Bar -->
+        <div class="navbar">
+            <div class="title">
+                <a style="text-decoration:none" href="index.html" target=_self title="Home">Jack Greiner</a>
+                <h4>&nbsp;&nbsp;&nbsp;&nbsp;Mechatronics Engineering Technology</h4></div>
+            <div class="nav-links">
+                <a style="text-decoration:none" href="pageaboutjack.html" target=_self title="About Section">
+                    About</a>
+                <a style="text-decoration:none" href="pageprojectsjack.html" target=_self title="Projects Section">
+                    Projects</a>
+                <a style="text-decoration:none" href="pageresumejack.html" target=_self title="Resume Section">
+                    Resume</a>
+                <a style="text-decoration:none" href="pagecontactjack.html" target=_self title="Contact Details">
+                    Contact</a>
+                <a style="text-decoration:none" href="pictures.html" target=_self title="Extra Pictures">
+                    Pictures</a>
+            </div>
+        </div>
+        <!--Content Main-->
+        <div style="margin:0px 100px 0px 100px;">
+            <br>
+            <h2>About Me</h2>
+            <p>Hello! I am Jack Greiner. I am studying Mechatronics Engineering at RIT. I am a 4th year student, 
+                with a heavy interest in robotics, automation, and the merging of the real life mechanics of the world with computer aided technology.</p>
+            <div class="section">
+                <div class="row">
+                    <div class="column-left">
+                        <img style="margin:0px 20px 0px 20px;" id="picAbot1" src="/imagefiles/PXL_20220310_224752482.MP.jpg" height="400" alt="This is a picture of the water" title="A Great View!"></div>
+                    <div class="column-right">
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have always been interested in engineering because I always wanted 
+                            to take stuff apart and put it back together to see how it worked, and ways to kind of automate certain processes 
+                            and thus make the task easier, increasing efficiency. I also wanted to have a potential impact on the world with 
+                            the things I made.</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What really got me interested in robotics was when I took a class called Electronics & Engineering 
+                            in high school and had such a fascination with the projects we did, like a line-following robot that we had to program. From the 
+                            movements of the motors to the actions the sensors did when they detected a certain change in color. I was able to pick it up pretty 
+                            quickly because I was also taking a programming class at that time, and I think it made me realize how much of a unity there was between 
+                            the mechanical, electrical, and computer side of a device, and how much they rely on each other in order to work properly, or at all.</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That was the kind of thing I was looking for when I started college when started out as undecided because I didn’t want to have to do just 
+                            stuff with machines or just stuff with computers because I felt like I would be missing out on the other. When Mechatronics Engineering came 
+                            up during the seminar class, I had decided what I wanted to do, and I am glad that I made that decision!</p>
+                    </div>
+                </div>
+                <!-- <h2>Values</h2>
+                <div class="row">
+                    <div class="column-left">
+                        <h4>Hard Work</h4>
+                        <p>I strive to work </p>
+                        <h4>Kindness</h4>
+                        <p></p>
+                        <h4>Perseverance</h4>
+                        <p></p>
+                    </div>
+                    <div class="column-right">
+                        <img style="margin:0px 20px 0px 20px;" id="picAbot1" src="/imagefiles/20200331_172717.jpg" height="400" alt="Water Sport" title="A Great View!"></div>
+                    </div>
+                </div> -->
+                <h2>Skills</h2>
+                <div class="row">
+                    <div class="column-left">
+                        <h4>Soft Skills</h4>
+                        <p>
+                            Problem Solving<br>
+                            Perseverence<br>
+                            Kindness<br>
+                            Teamwork<br>
+                            Leadership <br>
+                        </p>
+                        <h4>3D Design</h4>
+                        <p>
+                            SOLIDWORKS<br>
+                            Fusion 360 (Autodesk)<br>
+                            AutoCAD<br>
+                            Onshape<br>
+                        </p>
+                        <h4>Machines</h4>
+                        <p>
+                            Auduino<br>
+                            Cura (3D printing)<br>
+                            Soldering<br>
+                            Mill<br>
+                            Lathe<br>
+                            CNC<br>
+                        </p>
+                    </div>
+                    <div class="column-right">
+                        <h4>Essentials</h4>
+                        <p>
+                            Docs, Sheets, Slides<br>
+                            Word, Excel, Powerpoint<br>
+                            Google Drive<br>
+                            MS Sharepoint, OneDrive<br>
+                            Outlook, Teams<br>
+                        </p>
+                        <h4>Programming</h4>
+                        <p>
+                            C++, C, C#<br>
+                            Python<br>
+                            Java, Javascript<br>
+                            HTML, CSS (as shown!)<br>
+                            PLC (Ladder)<br>
+                            MATLAB<br>
+                        </p>
+                        <h4>Platforms</h4>
+                        <p>
+                            Android Studio<br>
+                            Arduino Studio<br>
+                            GitHub<br>
+                            Visual Studio<br>
+                        </p>
+                    </div>
+                </div>
+                <h2>Current Focus</h2>
+                <div class="row">
+                    <div class="column-left">
+                        <img style="margin:0px 20px 0px 20px;" id="picAbot1" src="/imagefiles/20200331_172717.jpg" height="400" alt="More water!" title="A Great View!">
+                    </div>
+                    <div class="column-right">
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm currently focusing on my Co-op with General Motors up in MI, but when I am not at work, I like to improve my programming skills, and 
+                            countinue to develop the version 2 spiderbot. I also try to keep in touch with my friends and family back home, and make effort 
+                            to make new ones here in Michigan.
+                        </p>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After my Co-op is over, I will look forward to finishing up my last 2 semesters of school at RIT in Rochester NY, and countinue to 
+                            work on the combat robotics in my school's robotics club, and start work on other projects as well, after completing my currently running project!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 
-<body>
-    <h2><a style="text-decoration:none" href="index.html" target=_self title="Home">
-        &nbsp;&nbsp;&nbsp;Jack Greiner</a></h2>
-    <h4>&nbsp;&nbsp;&nbsp;&nbsp;Mechatronics Engineering Technology</h4>
-    <hr>
-    <table>
-        <tr>
-            <th><a style="text-decoration:none" href="pageaboutjack.html" target=_self title="About Section">
-                &nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;</a></th>
-            <th><a style="text-decoration:none" href="pageprojectsjack.html" target=_self title="Projects Section">
-                Projects&nbsp;&nbsp;&nbsp;</a></th>
-            <th><a style="text-decoration:none" href="pageresumejack.html" target=_self title="Resume Section">
-                Resume&nbsp;&nbsp;&nbsp;</a></th>
-            <th><a style="text-decoration:none" href="pagecontactjack.html" target=_self title="Contact Details">
-                Contact&nbsp;&nbsp;&nbsp;</a></th>
-            <th><a style="text-decoration:none" href="pictures.html" target=_self title="Extra Pictures">
-                Pictures</a></th>
-        </tr>
-    </table>
-    <div style="margin:0px 100px 0px 100px;">
-    <br>
-    <h2>About Me</h2>
-    <p>Hello! I am Jack Greiner. I am studying Mechatronics Engineering at RIT. I am a 3rd year student, with a heavy interest in robotics, automation, and the merging of the real life mechanics of the world with computer aided technology.</p>
-    <img style="margin:0px 20px 0px 20px;" id="picAbot" src="/imagefiles/PXL_20220310_224752482.MP.jpg" height="400" alt="This is a picture of the water" title="A Great View!">
-    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have always been interested in engineering because I always wanted to take stuff apart and put it back together to see how it worked, and ways to kind of automate certain processes and thus make the task easier, increasing efficiency. I also wanted to have a potential impact on the world with the things I made. What really got me interested in robotics was when I took a class called Electronics & Engineering in high school and had such a fascination with the projects we did, like a line-following robot that we had to program. From the movements of the motors to the actions the sensors did when they detected a certain change in color. I was able to pick it up pretty quickly because I was also taking a programming class at that time, and I think it made me realize how much of a unity there was between the mechanical, electrical, and computer side of a device, and how much they rely on each other in order to work properly, or at all. That was the kind of thing I was looking for when I started college when started out as undecided because I didn’t want to have to do just stuff with machines or just stuff with computers because I felt like I would be missing out on the other. When Mechatronics Engineering came up during the seminar class, I had decided what I wanted to do, and I am glad that I made that decision.</span>
-    </div>
-
-</body>
-
-<script src="app.js"></script>
-
+    <!--route to javascript logic-->
+    <script src="app.js"></script>
 </html>
